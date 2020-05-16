@@ -1,0 +1,57 @@
+html {
+    background: #f6f6f6 url(imagens/bg.png);
+}
+
+body {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 930px;
+}
+
+/*Title*/
+
+h1, h2, h3, h4, h5, h6 {
+    font: bold 24px/1 sans-serif;
+}
+
+h2 {font-size: 16px}
+
+/*Main Header*/
+header.main {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header.main p {
+    font: bold 24px/1 sans-serif; 
+    letter-spacing: -1px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+/*Portifolio*/
+
+.portifolio h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.portifolio ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.portifolio li {
+    float: left;
+}
+
+.portfolio li:nth-child(3n+2) {
+    margin: 0 11px;
+}
+
+.portifolio img {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
