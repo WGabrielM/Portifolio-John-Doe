@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    color: #666;
+    font: normal 14px/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana;
     margin: 0 auto;
     padding: 50px 0;
     width: 930px;
@@ -29,7 +31,11 @@ header.main p {
     text-transform: uppercase;
 }
 
-/*Portifolio*/
+/*Portfolio*/
+
+.portifolio {
+    margin-bottom: 80px;   
+}
 
 .portifolio h1 {
     margin-bottom: 40px;
@@ -43,10 +49,12 @@ header.main p {
 
 .portifolio li {
     float: left;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .portfolio li:nth-child(3n+2) {
-    margin: 0 11px;
+    margin: 0 12px;
 }
 
 .portifolio img {
@@ -55,3 +63,78 @@ header.main p {
     border-radius: 4px;
     padding: 10px;
 }
+
+.portifolio figcaption {
+    color: #666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.portifolio li:hover a {
+    text-decoration: underline;
+}
+
+.portifolio  a {
+    color: #222;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/*About*/
+
+.about {
+    overflow: hidden;
+
+}
+
+.about h1,
+.abou h2 {
+    color: #47aec8;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.about img {
+    background: #fff;
+    border: 1px solid #ddd;
+    float: left; 
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.about strong {
+    color: #222;
+}
+
+.about p + p {
+    margin-top: 20px;;
+}
+
+.about .bio {
+    float: left;
+    width: 600px;
+}
+
+.about aside {
+    float: right;
+    width: 250px;
+}
+
+/*Social Icons*/
+.social .icon {
+    background: url(imagens/social-icons.png) no-repeat;
+    display: block;
+    height: 32px;
+    overflow: hidden;
+    width: 32px;
+    text-indent: 100%;
+}
+
+.social .delicious{background-position: -32px 0;}
+.social .flickr{background-position: -64px 0;}
+.social .dribbble{background-position: -96px 0;}
+.social .google{background-position: -128px 0;}
+.social .facebook{background-position: -160px 0;}
