@@ -13,15 +13,17 @@ body {
 /*Title*/
 
 h1, h2, h3, h4, h5, h6 {
+    color: #222;
     font: bold 24px/1 sans-serif;
+    text-transform: uppercase;
 }
 
 h2 {font-size: 16px}
 
 /*Main Header*/
 header.main {
+    color: #222;
     text-align: center;
-    text-transform: uppercase;
 }
 
 header.main p {
@@ -87,7 +89,6 @@ header.main p {
 
 .about {
     overflow: hidden;
-
 }
 
 .about h1,
@@ -124,8 +125,22 @@ header.main p {
 }
 
 /*Social Icons*/
+.social {
+    list-style: none;
+    overflow: hidden;
+}
+
+.social li {
+    float: left;
+}
+
+.social li + li {
+    margin-left: 20px;
+}
+
 .social .icon {
     background: url(imagens/social-icons.png) no-repeat;
+    cursor: pointer;
     display: block;
     height: 32px;
     overflow: hidden;
@@ -133,8 +148,10 @@ header.main p {
     text-indent: 100%;
 }
 
+.social .icon:hover {background-position-y: -32px;}
 .social .delicious{background-position: -32px 0;}
 .social .flickr{background-position: -64px 0;}
 .social .dribbble{background-position: -96px 0;}
 .social .google{background-position: -128px 0;}
 .social .facebook{background-position: -160px 0;}
+
