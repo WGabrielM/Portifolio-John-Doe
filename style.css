@@ -166,6 +166,7 @@ header.main p {
     color: #5f5f5f;
     display: block;
     padding: 4px 10px 4px 35px;
+    position: relative;
     text-decoration: none;
 }
 
@@ -174,4 +175,17 @@ header.main p {
     background-position-y: -29px;
     border-radius: 5px;
     color: #202020;
+}
+
+.links a:after {
+    content: "GO TO SITE";
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.links li:hover a:after {
+    display: block;
 }
