@@ -71,6 +71,7 @@ header.main p {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.1);
     padding: 10px;
 }
 
@@ -256,6 +257,7 @@ textarea {
     background: #555;
     border-radius: 4px;
     color: #fff;
+    cursor: pointer;
     font-weight: bold;
     padding: 10px 20px;
     text-transform: uppercase;
