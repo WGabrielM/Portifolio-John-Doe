@@ -207,7 +207,61 @@ header.main p {
     padding: 40px 0;
 }
 
+.contact .container {
+    position: relative;
+}
+
 .contact h1 {
     color: #dd4009;
     font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.contact input [type=text],
+.contact input [type=email] {
+    width: 400px;
+}
+
+.contact input [type=text],
+.contact input [type=email],
+textarea {
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.has-placeholder .contact label {
+    display: none;
+}
+
+.contact p + p {
+    margin-top: 25px;
+}
+
+.message-field {
+    position: absolute;
+    right: 0;
+    top: 26px;
+}
+
+.contact textarea {
+    height: 170px;
+    resize: none;
+    width: 450px;
+}
+
+.contact input [type=submit] {
+    border: none;
+    background: #555;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.contact label {
+    display: block;
+    padding-bottom: 5px;
 }
